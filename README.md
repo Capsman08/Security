@@ -16,22 +16,35 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: <img src='https://imgur.com/a/0RsTR' title='SQLi Exploit' width='' alt='GIF Walkthrough' /> You are able to add in code like a sleep in the url as shown in the GIF. 
+Vulnerability #1:  You are able to add in code like a sleep in the url as shown in the GIF. 
 
-Vulnerability #2: <https://imgur.com/a/R5mBF' title='Session Hijacking' width='' alt='GIF Walkthrough' /> Here you can see I am logged in on the left in chrome but on the right in IE I am not logged in. I can take the session from chrome and paste it in IE and now I am logged in on IE.
+GIF: https://imgur.com/a/0RsTR
+
+
+Vulnerability #2: Here you can see I am logged in on the left in chrome but on the right in IE I am not logged in. I can take the session from chrome and paste it in IE and now I am logged in on IE.
+
+GIF: https://imgur.com/a/R5mBF
 
 ## Green
 
-Vulnerability #1: <img src='https://imgur.com/a/Pw6tc' title='Username Enumeration' width='' alt='GIF Walkthrough' /> You can see when I try to log in with "fakeuser" the error text is not bold but when I log in with "jmonroe99" it is bold showing that it is a valid username. The other sites always show the same font. 
+Vulnerability #1: You can see when I try to log in with "fakeuser" the error text is not bold but when I log in with "jmonroe99" it is bold showing that it is a valid username. The other sites always show the same font. 
 
-Vulnerability #2: <img src='https://imgur.com/a/PxbFd' title='XSS' width='' alt='GIF Walkthrough' /> To get the script to run you need to make feedback as a non-logged in person that has the script as the actual feedback test. Then when an admin logs in and checks the feedback the script will run! 
+GIF: https://imgur.com/a/Pw6tc
+
+Vulnerability #2: To get the script to run you need to make feedback as a non-logged in person that has the script as the actual feedback test. Then when an admin logs in and checks the feedback the script will run! 
+
+GIF: https://imgur.com/a/PxbFd
 
 
 ## Red
 
-Vulnerability #1: <img src='https://imgur.com/a/O0Q4H' title='IDOR Exploit' width='' alt='GIF Walkthrough' />  This is the  Insecure Direct Object Reference vulnerability. You can see in the gif that as a not logged in user we are able to see the new salesperson who is not supposed to be public by just changing the ID. 
+Vulnerability #1: This is the  Insecure Direct Object Reference vulnerability. You can see in the gif that as a not logged in user we are able to see the new salesperson who is not supposed to be public by just changing the ID. 
 
-Vulnerability #2: <img src = 'https://imgur.com/a/PqvbE' title='CSRF Exploit' width='' alt='GIF Walkthrough' /> Here you can create a small form that will load and edit the sales people. See that I added myself as a sales person.  The code I used is below 
+GIF: https://imgur.com/a/O0Q4H  
+
+Vulnerability #2: Here you can create a small form that will load and edit the sales people. See that I added myself as a sales person.  The code I used is below 
+
+GIF: https://imgur.com/a/PqvbE
 
 ````
 
@@ -53,4 +66,4 @@ Vulnerability #2: <img src = 'https://imgur.com/a/PqvbE' title='CSRF Exploit' wi
 ````
 ## Notes
 
-Describe any challenges encountered while doing the work
+For some reason I can not have the gifs successfully show in git hub as you scroll through. I have provided all the links. 
