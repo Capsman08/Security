@@ -14,5 +14,4 @@ On this project I encounted an issue of not being able to access my MHN login pa
 I got 12 attacks including the one that I created on my sensor. I found it interesting that they were coming from all over the globe, not just from the US or one specific location. 
 
 # GIF of this page 
-
-<img src = 'https://i.imgur.com/pG3DILe.gif' title="GIF Walkthrough' width='' alt='GIF Walkthrough' />
+<img src='https://i.imgur.com/pG3DILe.gif' title='Gif Walkthrough' width='' alt='Gif Walkthrough' />
